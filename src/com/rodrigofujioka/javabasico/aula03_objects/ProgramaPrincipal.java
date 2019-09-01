@@ -12,7 +12,7 @@
  * Contato: rcf4@cin.ufpe.br 
  * 
  */
-package com.rodrigofujioka.javabasico.aula03;
+package com.rodrigofujioka.javabasico.aula03_objects;
 
 /**
  * Classe que define o comportamento para o objeto.

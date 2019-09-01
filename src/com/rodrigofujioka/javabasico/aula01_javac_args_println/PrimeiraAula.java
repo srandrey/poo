@@ -11,7 +11,7 @@
  * <p>
  * Contato: rcf4@cin.ufpe.br
  */
-package com.rodrigofujioka.javabasico.aula01;
+package com.rodrigofujioka.javabasico.aula01_javac_args_println;
 
 import javax.swing.*;
 

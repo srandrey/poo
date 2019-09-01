@@ -11,7 +11,7 @@
  * <p>
  * Contato: rcf4@cin.ufpe.br
  */
-package com.rodrigofujioka.javabasico.aula02;
+package com.rodrigofujioka.javabasico.aula02_variables_methods;
 
 /**
  * Classes e comportamento (Métodos)
