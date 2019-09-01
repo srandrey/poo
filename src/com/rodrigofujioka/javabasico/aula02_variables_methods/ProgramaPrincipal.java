@@ -11,9 +11,7 @@
  * <p>
  * Contato: rcf4@cin.ufpe.br
  */
-package com.rodrigofujioka.javabasico.aula02;
-
-import java.util.Scanner;
+package com.rodrigofujioka.javabasico.aula02_variables_methods;
 
 /**
  * Classe criada para demonstrar como é realizada a criação de objetos a partir

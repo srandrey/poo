@@ -1,6 +1,5 @@
-package com.rodrigofujioka.javabasico.aula02;
+package com.rodrigofujioka.javabasico.aula02_variables_methods;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class ProgramaLerDadosTeclado {
