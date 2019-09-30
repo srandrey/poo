@@ -1,16 +1,15 @@
 /**
- * Projeto das trilhas de treinamento de Java básico ou avançado 
- * com foco nas certificações java e em treinamentos corporativos. 
+ * Projeto das trilhas de treinamento de Java básico ou avançado
+ * com foco nas certificações java e em treinamentos corporativos.
  * Fontes disponíveis em https://github.com/rodrigofujioka
- * 
+ * <p>
  * Professor: Rodrigo da Cruz Fujioka
  * Ano: 2016
  * http://www.rodrigofujioka.com
  * http://www.fujideia.com.br
  * http://lattes.cnpq.br/0843668802633139
- * 
- * Contato: rcf4@cin.ufpe.br 
- * 
+ * <p>
+ * Contato: rcf4@cin.ufpe.br
  */
 package com.rodrigofujioka.javabasico.aula03_objects;
 
@@ -21,17 +20,17 @@ package com.rodrigofujioka.javabasico.aula03_objects;
  * @Time: 05:41:32
  */
 public class Professor {
-	
-	String disciplina ;
-	
-	/**
-	 * 
-	 * Esse método ensina alguma disciplina.
-	 */
-	public void ensina(){
-		
-		System.out.println("O professor esta ensinando a disciplina de " + this.disciplina);
-		
-	}
+
+    String disciplina;
+
+    /**
+     *
+     * Esse método ensina alguma disciplina.
+     */
+    public void ensina() {
+
+        System.out.println("O professor esta ensinando a disciplina de " + this.disciplina);
+
+    }
 
 }

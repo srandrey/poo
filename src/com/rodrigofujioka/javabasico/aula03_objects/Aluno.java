@@ -15,6 +15,7 @@ package com.rodrigofujioka.javabasico.aula03_objects;
 
 /**
  * Classe que define o comportamento para o objeto.
+ *
  * @author: Rodrigo
  * @date: 17 de fev de 2016
  * @Time: 21:25:42

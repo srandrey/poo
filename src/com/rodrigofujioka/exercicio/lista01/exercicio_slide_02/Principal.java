@@ -1,6 +1,5 @@
 package com.rodrigofujioka.exercicio.lista01.exercicio_slide_02;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Principal {
