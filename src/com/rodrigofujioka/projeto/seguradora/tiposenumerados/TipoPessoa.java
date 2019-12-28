@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.rodrigofujioka.projeto.seguradora.tiposenumerados;
 
@@ -9,21 +9,21 @@ package com.rodrigofujioka.projeto.seguradora.tiposenumerados;
  */
 public enum TipoPessoa {
 
-	FISICA("Pessoa Física"), 
-	JURIDICA("Pessoa Juridica");
+    FISICA("Pessoa Física"),
+    JURIDICA("Pessoa Juridica");
 
-	private String tipo;
+    private String tipo;
 
-	private TipoPessoa(String tipo) {
-		this.tipo = tipo;
-	}
+    private TipoPessoa(String tipo) {
+        this.tipo = tipo;
+    }
 
-	public String getTipo() {
-		return tipo;
-	}
+    public String getTipo() {
+        return tipo;
+    }
 
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
-	}
-   
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
 }

@@ -1,16 +1,15 @@
 /**
- * Projeto das trilhas de treinamento de Java básico ou avançado 
- * com foco nas certificações java e em treinamentos corporativos. 
+ * Projeto das trilhas de treinamento de Java básico ou avançado
+ * com foco nas certificações java e em treinamentos corporativos.
  * Fontes disponíveis em https://github.com/rodrigofujioka
- * 
+ * <p>
  * Professor: Rodrigo da Cruz Fujioka
  * Ano: 2016
  * http://www.rodrigofujioka.com
  * http://www.fujideia.com.br
  * http://lattes.cnpq.br/0843668802633139
- * 
- * Contato: rcf4@cin.ufpe.br 
- * 
+ * <p>
+ * Contato: rcf4@cin.ufpe.br
  */
 package com.rodrigofujioka.javabasico.aula07;
 
@@ -21,32 +20,31 @@ package com.rodrigofujioka.javabasico.aula07;
  * @Time: 20:51:33
  */
 public class Pessoa extends OperadoresJava {
-	
-	private String nome;
 
-	/**
-	 * @return the nome
-	 */
-	public String getNome() {
-		return nome;
-	}
+    private String nome;
 
-	/**
-	 * @param nome the nome to set
-	 */
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    /**
+     * @return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
 
-	/* (non-Javadoc)
-	 * @see java.lang.Object#equals(java.lang.Object)
-	 */
-	@Override
-	public boolean equals(Object p) {
-	
-		return this.nome == ((Pessoa)p).getNome();
-	}
-	
-	
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /* (non-Javadoc)
+     * @see java.lang.Object#equals(java.lang.Object)
+     */
+    @Override
+    public boolean equals(Object p) {
+
+        return this.nome == ((Pessoa) p).getNome();
+    }
+
 
 }

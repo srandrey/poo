@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.rodrigofujioka.projeto.seguradora.tiposenumerados;
 
@@ -8,34 +8,34 @@ package com.rodrigofujioka.projeto.seguradora.tiposenumerados;
  *
  */
 public enum RamoEnum {
-	
-	COMERCIO (1, "Comercio"),
-	INDUSTRIA (2, "Industria"),
-	AGROPERCUARIA (3, "Agropecuaria");
-	
+
+    COMERCIO(1, "Comercio"),
+    INDUSTRIA(2, "Industria"),
+    AGROPERCUARIA(3, "Agropecuaria");
+
     private int codigo;
     private String descricao;
-    
+
     private RamoEnum(int codigo, String descricao) {
-    	this.codigo = codigo;
-    	this.descricao = descricao;
+        this.codigo = codigo;
+        this.descricao = descricao;
     }
 
-	public int getCodigo() {
-		return codigo;
-	}
+    public int getCodigo() {
+        return codigo;
+    }
 
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
-	public String getDescricao() {
-		return descricao;
-	}
+    public String getDescricao() {
+        return descricao;
+    }
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
-	}
-	
-	
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+
 }

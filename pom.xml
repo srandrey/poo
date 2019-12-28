@@ -1,38 +1,50 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.fujideia.unipe.cc</groupId>
-  <artifactId>javabasico</artifactId>
-  <version>0.0.3</version>
-  
-  <name>Java Básico</name>
-  <description>Projeto Java básico da disciplina Metologia e Linguagem de programação 2</description>
-  	<!-- Informações de contato e autorais -->
-	<developers>
-		<developer>
-			<name>Rodrigo da Cruz Fujioka</name>
-			<email>rcf4@cin.ufpe.br</email>
-			<roles>
-				<role>Instrutor</role>
-				<role>Professor</role>
-				<role>Coordenador</role>
-			</roles>
-			<organization>Fujideia</organization>
-			<organizationUrl>http://www.rodrigofujioka.com</organizationUrl>
-		</developer>
-	</developers>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.fujideia.unipe.cc</groupId>
+    <artifactId>javabasico</artifactId>
+    <version>0.0.3</version>
 
-	<!-- Propriedades do propjeto -->
-	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-      </plugin>
-    </plugins>
-  </build>
+    <name>Java Básico</name>
+    <description>Projeto Java básico da disciplina Metologia e Linguagem de programação 2</description>
+    <!-- Informações de contato e autorais -->
+    <developers>
+        <developer>
+            <name>Rodrigo da Cruz Fujioka</name>
+            <email>rcf4@cin.ufpe.br</email>
+            <roles>
+                <role>Instrutor</role>
+                <role>Professor</role>
+                <role>Coordenador</role>
+            </roles>
+            <organization>Fujideia</organization>
+            <organizationUrl>http://www.rodrigofujioka.com</organizationUrl>
+        </developer>
+    </developers>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!-- Propriedades do propjeto -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
