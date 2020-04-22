@@ -34,6 +34,10 @@
 
 	<!-- Propriedades do propjeto -->
 	<properties>
+		<sonar.projectKey>srandrey_poo</sonar.projectKey>
+		<sonar.organization>srandrey</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>e801dc0de1d3ea290d1f87ab43ef318a0f70ddf5</sonar.login>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
